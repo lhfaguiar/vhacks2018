@@ -1,0 +1,67 @@
+page-loclas-pessoas {
+  ion-content {
+    padding: 5px;
+    background-color:slategrey;
+  }
+  ion-grid {
+    padding: 0;
+  }
+  div.wrap-content {
+    background-color: white;
+    height: 100%;
+  }
+  ion-row.banner {
+    height: 30vh;
+    background-color:purple;
+    background-image: url('../../assets/imgs/loclas-pessoas-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+  }
+  ion-row.infos {
+    padding: 5px;
+  }
+  ion-row.btn-up {
+    height: 60%;
+  }
+  ion-row {
+    width: 100%;
+  }
+  button {
+    background-color:transparent;
+    height: 35px;
+  }
+  button.close {
+    float: right;
+  }
+  .title h2 {
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .title {
+        padding: 0 10px;
+  }
+
+  ion-row.infos {
+    padding: 20px;
+  }
+  .title label {
+    color:white;
+  }
+
+  .local ion-col.meters {
+    text-align: right;
+    font-weight: bold;
+    color: #575757;
+  }
+
+  .local ion-col.info label {
+    font-weight: bold;
+  }
+  .local ion-col.info p {
+    margin: 5px 0;
+    line-height: 20px;
+    font-size: 14px;
+  }
+}

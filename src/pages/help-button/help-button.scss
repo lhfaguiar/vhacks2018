@@ -1,0 +1,35 @@
+help-button {
+  ion-content {
+    background-color: #51adfb;
+  }
+  .wrap-button {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 85px);
+  }
+  button.emergency {
+    margin:auto;
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    border: 15px solid #8ac7fb;
+    background-color: #f9554f;
+    font-size: 20sp;
+  }
+  button.menu-bottom {
+    background-color: transparent;
+    height: 35px;
+    padding: 0 0.1em;
+    box-shadow: none;
+  }
+  .grid {
+    padding: 0;
+  }
+  .row {
+    text-align: center;
+  }
+  img {
+    height: 30px;
+    opacity: 0.7;
+  }
+}

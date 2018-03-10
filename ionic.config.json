@@ -1,0 +1,8 @@
+{
+  "name": "VHacks",
+  "app_id": "2994ef20",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
